@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next13 CSR Github page 배포
 
-## Getting Started
+## 목적
 
-First, run the development server:
+- github action 으로 github page 배포
+- github action 으로 next13 static export 하는 방법
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 할일
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [x] nextjs 13 빈파일 만들기
+- [x] github action 구성
+- [x] github pages 구성
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Point 사항
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+next.config.js
 
-## Learn More
+<img width="350" alt="스크린샷 2023-10-05 오후 11 26 16" src="https://github.com/yousung/nextjs-csr-build-study/assets/22886880/47a5c919-8389-4221-ae4a-0b3135006432">
 
-To learn more about Next.js, take a look at the following resources:
+## Github Page Link
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[바로가기](https://yousung.github.io/nextjs-csr-build-study/)
